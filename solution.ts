@@ -55,3 +55,17 @@ traverse.default(ast, {
 });
 
 console.log('Template literals with /*tsx*/:', tsxComments);
+
+/* TASK 4: Identify any edge cases in your proposed solution.
+   
+   Answer:
+   Edge Case 1 - "tsx" lines that are nested within a "tsx" may not be identified
+
+*/
+
+/* TASK 5: Specify the time complexity and space complexity for your proposed solution
+   
+   Answer:
+   Time Complexity is O(n) as if the size of input grows, the time taken to traverse grows too
+
+*/
